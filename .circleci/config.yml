@@ -1,5 +1,4 @@
 version: 2
-executorType: machine
 jobs:
   create_builder:
     machine: true
@@ -110,7 +109,7 @@ jobs:
               - ./vendor
               - /tmp/go/cache
 
-#      - setup_remote_docker
+      - setup_remote_docker
 
       - run:
           name: docker pull
@@ -204,7 +203,7 @@ jobs:
           - ./vendor
           - /tmp/go/cache
 
-#      - setup_remote_docker
+      - setup_remote_docker
 
       - run:
           name: docker pull
@@ -314,7 +313,7 @@ jobs:
           - ./vendor
           - /tmp/go/cache
 
-#      - setup_remote_docker
+      - setup_remote_docker
 
       - run:
           name: docker pull
