@@ -445,14 +445,14 @@
   version = "v1.2.2"
 
 [[projects]]
-  digest = "1:e04eb4f69d29153d8b33d779b0c318f2378b1ec0010627cb5c16a7cd01ad64f6"
+  digest = "1:f3b80e4755711db9ac24ea7cc5273651bf9b01946d260c61c694e8183c8f9cc8"
   name = "github.com/testcontainers/testcontainers-go"
   packages = [
     ".",
     "wait",
   ]
   pruneopts = ""
-  revision = "f7b3f93faf2276fdd55770568d49e429be67ac27"
+  revision = "7e2cf9ab83986d4788a7ba45fb1183f0fcccd7f0"
   source = "github.com/MeneDev/testcontainer-go.git"
 
 [[projects]]
